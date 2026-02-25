@@ -26,6 +26,8 @@
   color: #444;
 }
 
+
+/*    PARTE DE TECNLOGIA NA SECTION!!!!  */
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -34,13 +36,52 @@
 }
 
 .tech-grid li {
+  border-radius: 10px;
   border: 1px solid #ddd;
   padding: 16px;
   text-align: center;
   transition: transform 0.3s;
 }
 
-.tech-grid li:hover {
+.sec-tech-html:hover {
   transform: translateY(-6px);
+  background-color:#f08f49;
+  color:rgba(29, 28, 28, 0.897);
+  font-weight: bold;
+}
+
+.sec-tech-css:hover {
+  transform: translateY(-6px);
+  background-color:rgb(141, 39, 224);
+  color:aliceblue;
+  font-weight: bold;
+}
+
+.sec-tech-js:hover {
+  transform: translateY(-6px);
+  background-color:rgba(245, 245, 8, 0.959);
+  color:rgb(24, 26, 27);
+  font-weight: bold;
+}
+
+.sec-tech-type:hover {
+  transform: translateY(-6px);
+  background-color:rgb(47, 110, 182);
+  color:aliceblue;
+  font-weight: bold;
+}
+
+.sec-tech-node:hover {
+  transform: translateY(-6px);
+  background-color:rgb(47, 196, 96);
+  color:aliceblue;
+  font-weight: bold;
+}
+
+.sec-tech-git:hover {
+  transform: translateY(-6px);
+  background-color:rgb(240, 182, 58);
+  color:aliceblue;
+  font-weight: bold;
 }
 
