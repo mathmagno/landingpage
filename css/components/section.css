@@ -29,6 +29,7 @@
 
 /*    PARTE DE TECNLOGIA NA SECTION!!!!  */
 .tech-grid {
+  list-style: none;  /* remove os bullets */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
