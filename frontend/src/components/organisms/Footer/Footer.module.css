@@ -1,0 +1,28 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding: var(--spacing-md);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copy {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.accent {
+  color: var(--color-accent);
+}
